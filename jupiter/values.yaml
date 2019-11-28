@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: brunocri2/jupiter
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
